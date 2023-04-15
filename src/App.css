@@ -1,0 +1,533 @@
+.font_heading {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    width: 373px;
+    height: 80px;
+    margin-bottom: 8px;
+}
+
+.font_p {
+    margin-top: 0;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+    width: 394px;
+    height: 67px;
+}
+
+.font_input1 {
+    font-family: 'Amita';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.font_input2 {
+    font-family: 'Tangerine';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 22px;
+}
+
+.font_input3 {
+    margin-top: 0;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.font_ring_name {
+    width: 394px;
+    height: 29px;
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+    color: #E2BDB6;
+    margin-bottom: 8px;
+}
+
+.font_input_label {
+    width: 201px;
+    height: 29px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    font-family: 'Kalam';
+    color: #8B8B8B;
+}
+
+.font_radio_buttons {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.height {
+    height: 100vh;
+}
+
+.img_size>canvas {
+    width: 396px;
+    height: 563px;
+}
+
+#container3d {
+    width: 550px;
+    height: 650px;
+}
+
+.input_text {
+    color: black;
+    box-sizing: border-box;
+    width: 270px;
+    height: 35px;
+    border: 1.5px solid #E2BDB6;
+}
+
+.label_text {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 15px;
+    width: 201px;
+    height: 29px;
+    color: #8B8B8B;
+}
+
+.image_size_T {
+    height: 37.02px;
+    width: 27px;
+}
+
+.image_size_D {
+    height: 30.01px;
+    width: 44px;
+}
+
+.image_size_C {
+    height: 55px;
+    width: 51px;
+}
+
+/* Button 1 group */
+
+:root {
+    --primary-color: #E2BDB6;
+    ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.form-group {
+    margin: 1rem 0;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+    position: relative;
+    font-size: 20px;
+}
+
+.label1::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    border: 2px solid #E2BDB6;
+    ;
+    border-radius: 50%;
+    top: 50%;
+    left: -3rem;
+    transform: translateY(-50%);
+
+}
+
+.label1::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background-color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+    border-radius: 50%;
+    top: 50%;
+    left: -3rem;
+    transform: translateY(-50%) scale(0);
+    transition: transform 400ms ease;
+}
+
+input[type="radio"]:checked+.label1::before {
+    border-color: var(--primary-color);
+}
+
+input[type="radio"]:checked+.label1::after {
+    transform: translateY(-50%) scale(0.65);
+}
+
+.radio-buttons {
+    margin-left: 65px;
+}
+
+/* End of button 1 group */
+
+/* Group 2 button */
+
+
+.label2::after {
+    content: "";
+    position: absolute;
+    width: 62px;
+    height: 62px;
+    background-color: none;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    top: 50%;
+    /* left: -3rem; */
+    transform: translateY(-50%) scale(0);
+    /* transition: transform 400ms ease; */
+}
+
+input[type="radio"]:checked+.label2::before {
+    border-color: var(--primary-color);
+}
+
+input[type="radio"]:checked+.label2::after {
+    transform: translateY(-50%) scale(1);
+}
+
+.image_margin {
+    margin-left: 7px;
+}
+
+/* End of button 2 group */
+html {
+    height: 100%;
+}
+
+.label_1 {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.label_2 {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.label_3 {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+.selection_height {
+    height: 217px;
+}
+
+.width_adjust {
+    width: 51px;
+}
+
+@media only screen and (max-width: 1200px) {
+    #container3d {
+        width: 100%;
+        height: 420px;
+    }
+
+    .image_size_T {
+        height: 23px;
+        width: 17px;
+    }
+
+    .image_size_D {
+        height: 20px;
+        width: 29px;
+    }
+
+    .image_size_C {
+        height: 26px;
+        width: 26px;
+    }
+
+    .font_heading {
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 30px;
+        line-height: 30px;
+        width: 273px;
+        height: 60px;
+        margin-bottom: 8px;
+    }
+
+    .font_p {
+        margin-top: 0;
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 12px;
+        width: 290px;
+        height: 41px;
+    }
+
+    .font_input1 {
+        font-family: 'Amita';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .font_input2 {
+        font-family: 'Tangerine';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 22px;
+    }
+
+    .font_input3 {
+        margin-top: 0;
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .font_ring_name {
+        width: 394px;
+        height: 18px;
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        color: #E2BDB6;
+        margin-bottom: 4px;
+        margin-top: 10px;
+    }
+
+    .font_input_label {
+        width: 201px;
+        height: 29px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 15px;
+        font-family: 'Kalam';
+        color: #8B8B8B;
+    }
+
+    .font_radio_buttons {
+        font-family: 'Kalam';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    label {
+        cursor: pointer;
+        position: relative;
+        font-size: 14px;
+    }
+
+    .label1::before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: white;
+        border: 2px solid #E2BDB6;
+        ;
+        border-radius: 50%;
+        top: 50%;
+        left: -2.5rem;
+        transform: translateY(-50%);
+    }
+
+    .label1::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        background-color: var(--primary-color);
+        border: 2px solid var(--primary-color);
+        border-radius: 50%;
+        top: 50%;
+        left: -2.5rem;
+        transform: translateY(-50%) scale(0);
+        transition: transform 400ms ease;
+    }
+
+    input[type="radio"]:checked+.label1::before {
+        border-color: var(--primary-color);
+    }
+
+    input[type="radio"]:checked+.label1::after {
+        transform: translateY(-50%) scale(0.65);
+    }
+
+    .radio-buttons {
+        margin-left: 40px;
+    }
+
+    .form-group {
+        margin-top: 20px;
+    }
+
+    .image_margin {
+        margin-left: 7px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .input_text {
+        color: black;
+        box-sizing: border-box;
+        width: 165px;
+        height: 26px;
+        border: 1.5px solid #E2BDB6;
+    }
+
+    .label_text {
+        font-size: 8px;
+        width: 164px;
+        height: 18px;
+    }
+
+    .font_input1 {
+        font-size: 14px;
+    }
+
+    .font_input2 {
+        font-size: 24px;
+    }
+
+    .font_input3 {
+        font-size: 14px;
+    }
+
+    .label2::after {
+        content: "";
+        position: absolute;
+        width: 42px;
+        height: 42px;
+        background-color: none;
+        border: 1px solid var(--primary-color);
+        border-radius: 50%;
+        top: 25%;
+        margin-left: -22px;
+        margin-top: 2px;
+        /* left: -3rem; */
+        transform: translateY(-50%) scale(0);
+        /* transition: transform 400ms ease; */
+    }
+
+    input[type="radio"]:checked+.label2::before {
+        border-color: var(--primary-color);
+    }
+
+    input[type="radio"]:checked+.label2::after {
+        transform: translateY(-50%) scale(1);
+    }
+
+    .image_margin {
+        margin-left: 0px;
+    }
+
+    .width_adjust {
+        width: 72px;
+        height: 35px;
+    }
+
+    .width_adjust_2 {
+        width: 165px;
+        height: 35px;
+    }
+
+    .selection_height {
+        height: 220px;
+    }
+
+    .polygon1 {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 8px solid #afafaf;
+        margin-top: 17px;
+    }
+
+    .polygon2 {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 8px solid #afafaf;
+        margin-top: 2px;
+        transform: rotate(-180deg);
+
+    }
+
+    .polygon3 {
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 8px solid #afafaf;
+        margin-top: 14px;
+    }
+
+    .pointer {
+        cursor: pointer;
+    }
+
+    .bottom {
+        position: fixed;
+        bottom: 0;
+    }
+
+    .animation1 {
+        transform: translateY(0%);
+        transition: transform 2s ease-in-out;
+    }
+
+    .animation2 {
+        transform: translateY(100%);
+        transition: transform 0.001s ease-in-out;
+    }
+}
