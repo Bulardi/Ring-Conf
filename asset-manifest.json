@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Bulardi/Ring-Conf/static/css/main.609d2b56.css",
-    "main.js": "/Bulardi/Ring-Conf/static/js/main.a136a4ed.js",
-    "static/js/787.b4028e9e.chunk.js": "/Bulardi/Ring-Conf/static/js/787.b4028e9e.chunk.js",
-    "index.html": "/Bulardi/Ring-Conf/index.html",
-    "main.609d2b56.css.map": "/Bulardi/Ring-Conf/static/css/main.609d2b56.css.map",
-    "main.a136a4ed.js.map": "/Bulardi/Ring-Conf/static/js/main.a136a4ed.js.map",
-    "787.b4028e9e.chunk.js.map": "/Bulardi/Ring-Conf/static/js/787.b4028e9e.chunk.js.map"
+    "main.css": "/Ring-Conf/static/css/main.609d2b56.css",
+    "main.js": "/Ring-Conf/static/js/main.86067306.js",
+    "static/js/787.b4028e9e.chunk.js": "/Ring-Conf/static/js/787.b4028e9e.chunk.js",
+    "index.html": "/Ring-Conf/index.html",
+    "main.609d2b56.css.map": "/Ring-Conf/static/css/main.609d2b56.css.map",
+    "main.86067306.js.map": "/Ring-Conf/static/js/main.86067306.js.map",
+    "787.b4028e9e.chunk.js.map": "/Ring-Conf/static/js/787.b4028e9e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.609d2b56.css",
-    "static/js/main.a136a4ed.js"
+    "static/js/main.86067306.js"
   ]
 }
