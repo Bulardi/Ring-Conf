@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Ring-Conf/static/css/main.4fc151aa.css",
-    "main.js": "/Ring-Conf/static/js/main.de095a9d.js",
+    "main.css": "/Ring-Conf/static/css/main.583d93a2.css",
+    "main.js": "/Ring-Conf/static/js/main.a6e16446.js",
     "static/js/787.b4028e9e.chunk.js": "/Ring-Conf/static/js/787.b4028e9e.chunk.js",
     "index.html": "/Ring-Conf/index.html",
-    "main.4fc151aa.css.map": "/Ring-Conf/static/css/main.4fc151aa.css.map",
-    "main.de095a9d.js.map": "/Ring-Conf/static/js/main.de095a9d.js.map",
+    "main.583d93a2.css.map": "/Ring-Conf/static/css/main.583d93a2.css.map",
+    "main.a6e16446.js.map": "/Ring-Conf/static/js/main.a6e16446.js.map",
     "787.b4028e9e.chunk.js.map": "/Ring-Conf/static/js/787.b4028e9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fc151aa.css",
-    "static/js/main.de095a9d.js"
+    "static/css/main.583d93a2.css",
+    "static/js/main.a6e16446.js"
   ]
 }
